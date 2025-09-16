@@ -10,7 +10,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+h2 {
+    font-style: oblique;
+    margin: 1rem 0;
+  }
 body {
     font-family: Arial, sans-serif;
     background-color: var(--background-color);
