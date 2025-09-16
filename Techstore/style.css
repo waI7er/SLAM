@@ -1,6 +1,6 @@
 /* Variables CSS pour faciliter les modifications */
 :root {
-  --primary-color: #8800ff;
+  --primary-color: #7300ff;
   --secondary-color: #6c757d;
   --background-color: #f8f9fa;
 }
@@ -10,7 +10,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+h2 {
+  font-style: oblique;
+  margin: 1rem 0;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: var(--background-color);
@@ -24,14 +27,54 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+header h1 {
+  font-style: oblique;
+}
 
-footer{
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+main section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+main p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+footer {
+  color: black;
   text-align: center;
   padding: 1rem;
   position: fixed;
-  width: 100%;
   bottom: 0;
+  width: 100%;
 }
+
 /* Styles à personnaliser par chaque étudiant */
