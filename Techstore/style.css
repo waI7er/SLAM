@@ -1,6 +1,6 @@
 /* Variables CSS pour faciliter les modifications */
 :root {
-  --primary-color: #007bff;
+  --primary-color: #8800ff;
   --secondary-color: #6c757d;
   --background-color: #f8f9fa;
 }
@@ -26,4 +26,12 @@ header {
   align-items: center;
 }
 
+
+footer{
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
 /* Styles à personnaliser par chaque étudiant */
